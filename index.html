@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnWise Academy</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <i class="fas fa-graduation-cap text-3xl text-blue-600"></i>
+                    <span class="text-2xl font-bold text-gray-800 ml-2">LearnWise</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#" class="text-gray-600 hover:text-blue-600">Courses</a>
+                    <a href="#" class="text-gray-600 hover:text-blue-600">Study Plans</a>
+                    <a href="#" class="text-gray-600 hover:text-blue-600">Resources</a>
+                    <a href="#" class="text-gray-600 hover:text-blue-600">Community</a>
+                    <a href="#" class="text-gray-600 hover:text-blue-600">Contact</a>
+                </div>
+                <button class="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700">Start Learning</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 95vh;">
+        <div class="absolute top-0 w-full h-full bg-center bg-cover" style="background-image: url('/api/placeholder/1920/1080');">
+            <span id="blackOverlay" class="w-full h-full absolute opacity-50 bg-black"></span>
+        </div>
+        <div class="container relative mx-auto">
+            <div class="items-center flex flex-wrap">
+                <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+                    <div class="text-white">
+                        <h1 class="text-5xl font-semibold">Your Future Begins Here</h1>
+                        <p class="mt-4 text-lg">Access world-class education resources, personalized study plans, and expert guidance to achieve your academic goals.</p>
+                        <button class="bg-blue-600 text-white mt-8 px-8 py-3 rounded-md hover:bg-blue-700">Explore Courses</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <section class="pb-20 bg-white -mt-24">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap">
+                <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                    <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                        <div class="px-4 py-5 flex-auto">
+                            <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
+                                <i class="fas fa-book"></i>
+                            </div>
+                            <h6 class="text-xl font-semibold">Comprehensive Library</h6>
+                            <p class="mt-2 mb-4 text-gray-600">Access over 10,000 study materials, practice tests, and resources across all subjects.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full md:w-4/12 px-4 text-center">
+                    <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                        <div class="px-4 py-5 flex-auto">
+                            <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h6 class="text-xl font-semibold">Expert Tutors</h6>
+                            <p class="mt-2 mb-4 text-gray-600">Connect with qualified tutors for personalized guidance and support in your studies.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                    <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                        <div class="px-4 py-5 flex-auto">
+                            <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <h6 class="text-xl font-semibold">Flexible Learning</h6>
+                            <p class="mt-2 mb-4 text-gray-600">Study at your own pace with 24/7 access to all learning materials and resources.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Courses -->
+    <section class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-center text-center mb-16">
+                <div class="w-full lg:w-6/12 px-4">
+                    <h2 class="text-4xl font-semibold">Popular Study Programs</h2>
+                    <p class="text-lg leading-relaxed m-4 text-gray-600">Choose from our most sought-after courses and start your learning journey today.</p>
+                </div>
+            </div>
+            <div class="flex flex-wrap">
+                <div class="w-full md:w-4/12 px-4 mb-8">
+                    <div class="relative flex flex-col min-w-0 break-words bg-white w-full shadow-lg rounded-lg">
+                        <img alt="Mathematics Course" src="/api/placeholder/600/400" class="align-middle rounded-t-lg">
+                        <div class="p-6">
+                            <h4 class="text-xl font-bold">Advanced Mathematics</h4>
+                            <p class="mt-2 mb-4 text-gray-600">Master complex mathematical concepts with our comprehensive course.</p>
+                            <button class="bg-blue-600 text-white px-4 py-2 rounded">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-4/12 px-4 mb-8">
+                    <div class="relative flex flex-col min-w-0 break-words bg-white w-full shadow-lg rounded-lg">
+                        <img alt="Science Course" src="/api/placeholder/600/400" class="align-middle rounded-t-lg">
+                        <div class="p-6">
+                            <h4 class="text-xl font-bold">Physics & Chemistry</h4>
+                            <p class="mt-2 mb-4 text-gray-600">Explore the fundamentals of physical sciences with hands-on experiments.</p>
+                            <button class="bg-blue-600 text-white px-4 py-2 rounded">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-4/12 px-4 mb-8">
+                    <div class="relative flex flex-col min-w-0 break-words bg-white w-full shadow-lg rounded-lg">
+                        <img alt="Language Course" src="/api/placeholder/600/400" class="align-middle rounded-t-lg">
+                        <div class="p-6">
+                            <h4 class="text-xl font-bold">Language Arts</h4>
+                            <p class="mt-2 mb-4 text-gray-600">Develop strong communication skills through literature and writing.</p>
+                            <button class="bg-blue-600 text-white px-4 py-2 rounded">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-center text-center mb-16">
+                <div class="w-full lg:w-6/12 px-4">
+                    <h2 class="text-4xl font-semibold">What Our Students Say</h2>
+                    <p class="text-lg leading-relaxed m-4 text-gray-600">Hear from our successful students who transformed their learning journey with LearnWise.</p>
+                </div>
+            </div>
+            <div class="flex flex-wrap">
+                <div class="w-full md:w-6/12 lg:w-4/12 px-4 mb-8">
+                    <div class="bg-white rounded-lg shadow-lg p-8">
+                        <img alt="Student 1" src="/api/placeholder/100/100" class="rounded-full w-16 h-16 mb-4 mx-auto">
+                        <p class="text-gray-600 mb-4">"LearnWise helped me achieve my academic goals with their structured study plans and excellent resources."</p>
+                        <h5 class="text-lg font-semibold">Sarah Johnson</h5>
+                        <p class="text-blue-600">Medical Student</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-6/12 lg:w-4/12 px-4 mb-8">
+                    <div class="bg-white rounded-lg shadow-lg p-8">
+                        <img alt="Student 2" src="/api/placeholder/100/100" class="rounded-full w-16 h-16 mb-4 mx-auto">
+                        <p class="text-gray-600 mb-4">"The expert tutors and interactive learning materials made complex topics easy to understand."</p>
+                        <h5 class="text-lg font-semibold">Michael Chen</h5>
+                        <p class="text-blue-600">Engineering Student</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-6/12 lg:w-4/12 px-4 mb-8">
+                    <div class="bg-white rounded-lg shadow-lg p-8">
+                        <img alt="Student 3" src="/api/placeholder/100/100" class="rounded-full w-16 h-16 mb-4 mx-auto">
+                        <p class="text-gray-600 mb-4">"The flexibility of online learning combined with quality content helped me excel in my studies."</p>
+                        <h5 class="text-lg font-semibold">Emily Rodriguez</h5>
+                        <p class="text-blue-600">Law Student</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="relative py-20">
+        <div class="container mx-auto px-4">
+            <div class="relative flex flex-col min-w-0 break-words bg-blue-600 w-full mb-6 shadow-lg rounded-lg">
+                <div class="px-6 py-12 text-center">
+                    <h3 class="text-3xl font-semibold text-white">Start Your Learning Journey Today</h3>
+                    <p class="text-lg font-light mt-4 text-white">Join thousands of students achieving their academic goals with LearnWise.</p>
+                    <div class="mt-8">
+                        <button class="bg-white text-blue-600 px-8 py-3 rounded-md hover:bg-gray-100">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 pt-12 pb-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap text-left lg:text-left">
+                <div class="w-full lg:w-6/12 px-4">
+                    <h4 class="text-3xl font-semibold text-white">LearnWise Academy</h4>
+                    <p class="text-lg mt-0 mb-2 text-gray-400">
+                        Empowering students to achieve their academic dreams through quality education and personalized learning.
+                    </p>
+                    <div class="mt-6 space-x-4">
+                        <button class="bg-white text-blue-600 w-8 h-8 rounded-full outline-none focus:outline-none" type="button">
+                            <i class="fab fa-twitter"></i>
+                        </button>
+                        <button class="bg-white text-blue-600 w-8 h-8 rounded-full outline-none focus:outline-none" type="button">
+                            <i class="fab fa-facebook"></i>
+                        </button>
+                        <button class="bg-white text-blue-600 w-8 h-8 rounded-full outline-none focus:outline-none" type="button">
+                            <i class="fab fa-instagram"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="w-full lg:w-6/12 px-4">
+                    <div class="flex flex-wrap">
+                        <div class="w-full lg:w-4/12 px-4 ml-auto">
+                            <span class="block uppercase text-white text-sm font-semibold mb-2">Useful Links</span>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a class="text-gray-400 hover:text-gray-200 block pb-2 text-sm" href="#">About Us</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-400 hover:text-gray-200 block pb-2 text-sm" href="#">Blog</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-400 hover:text-gray-200 block pb-2 text-sm" href="#">
